@@ -4,3 +4,16 @@
   font-family: Arial, Helvetica, sans-serif; /* Tutorial uses Poppins, I'm using standard. Might change it later */
   box-sizing: border-box;
 }
+
+body {
+  background: #080808;
+  color: #fff;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
