@@ -107,3 +107,8 @@ nav ul li a:hover::after {
   /* width: 100%; your original image is too small so it 100% displays a small image. Commented out so let it auto set to fill the page*/
   border-radius: 15px;
 }
+/* Set about me title to white and larger in size */
+.about-col-2 h2 {
+  color: #fff;
+  font-size: 40px;
+}
