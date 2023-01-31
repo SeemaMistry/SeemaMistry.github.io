@@ -81,3 +81,23 @@ nav ul li a:hover::after {
 .header-text h1 span {
   color: #d016ff;
 }
+
+/* 
+-------------ABOUT SECTION-------------
+*/
+#about {
+  padding: 80px 0;
+  color: #ababab;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-1 img {
+  /* width: 100%; your original image is too small so it 100% displays a small image. Commented out so let it auto set to fill the page*/
+  border-radius: 15px;
+}
