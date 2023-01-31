@@ -125,3 +125,18 @@ nav ul li a:hover::after {
   cursor: pointer;
   position: relative;
 }
+/* Set hover after effect on tab links */
+.tab-links::after {
+  content: '';
+  width: 0; /* hide purple line until hover-event occurs */
+  height: 3px;
+  background: #7d0aa0;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+/* Set hover event on tab links */
+.tab-links:hover::after {
+  width: 100%;
+}
