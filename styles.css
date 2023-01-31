@@ -21,9 +21,10 @@ body {
 .container {
   padding: 10px 10%;
 }
+
 /* Set the nav-bar orientation */
 nav {
-  display: flex; /* sets it side-by-side */
+  display: flex; /* sets content horizontally side-by-side */
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -31,8 +32,15 @@ nav {
 .logo {
   width: 140px;
 }
+/* Set list content without bullets and in a horizontal line with some padding between */
 nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
+}
+/* Remove hyperlink and set font size and color of nav-bar router-links */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
