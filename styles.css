@@ -89,14 +89,20 @@ nav ul li a:hover::after {
   padding: 80px 0;
   color: #ababab;
 }
+/* Set content of about section in a single row horizontally with some spacing */
 .row {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+/* adjust column 1 and 2 sizes with a 5% spacing separating them */
 .about-col-1 {
   flex-basis: 35%;
 }
+.about-col-2 {
+  flex-basis: 60%;
+}
+/* adjust user image */
 .about-col-1 img {
   /* width: 100%; your original image is too small so it 100% displays a small image. Commented out so let it auto set to fill the page*/
   border-radius: 15px;
