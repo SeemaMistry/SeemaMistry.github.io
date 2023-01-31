@@ -1,0 +1,6 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; /* Tutorial uses Poppins, I'm using standard. Might change it later */
+  box-sizing: border-box;
+}
