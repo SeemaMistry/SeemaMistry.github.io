@@ -17,6 +17,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* 
+-------------NAVIGATION BAR-------------
+*/
+
 /* add padding to container div holding the nav-bar */
 .container {
   padding: 10px 10%;
@@ -43,4 +48,15 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  position: relative;
+}
+/* Set hover affect on nav-bar router links */
+nav ul li a::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #c300ff7e;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
 }
