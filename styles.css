@@ -151,3 +151,6 @@ nav ul li a:hover::after {
 #education p {
   font-size: 12px;
 }
+.tab-contents {
+  display: none;
+}
