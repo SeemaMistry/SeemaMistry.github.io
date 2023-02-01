@@ -140,6 +140,7 @@ nav ul li a:hover::after {
 .tab-links.active-link::after {
   width: 50%;
 }
+/* set tab-content list stlyings */
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
@@ -148,9 +149,15 @@ nav ul li a:hover::after {
   color: #b770c9;
   font-size: 16px;
 }
+/* set degree specifications to a smaller font */
 #education p {
   font-size: 12px;
 }
+/* hide all tab-contents by default */
 .tab-contents {
   display: none;
+}
+/* display active-tab only */
+.tab-contents.active-tab {
+  display: block;
 }
