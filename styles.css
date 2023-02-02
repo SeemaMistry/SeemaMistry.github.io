@@ -183,6 +183,7 @@ nav ul li a:hover::after {
   font-size: 13px;
   font-weight: 300;
   border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
 }
 /* adjust icon size */
 .services-list div i {
@@ -202,4 +203,9 @@ nav ul li a:hover::after {
   margin-top: 30px;
   font-size: 12px;
   display: inline-block;
+}
+/* set transition hover effect on cards to lift upwards and change to purple */
+.services-list div:hover {
+  background: #7d0aa0;
+  transform: translateY(-10px);
 }
