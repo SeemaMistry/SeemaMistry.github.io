@@ -176,6 +176,7 @@ nav ul li a:hover::after {
   grid-gap: 40px;
   margin-top: 50px;
 }
+/* set services inside grey card boxes */
 .services-list div {
   background: #262626;
   padding: 40px;
