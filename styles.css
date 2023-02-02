@@ -184,3 +184,8 @@ nav ul li a:hover::after {
   font-weight: 300;
   border-radius: 10px;
 }
+/* adjust icon size */
+.services-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
