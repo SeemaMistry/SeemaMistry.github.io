@@ -209,3 +209,10 @@ nav ul li a:hover::after {
   background: #7d0aa0;
   transform: translateY(-10px);
 }
+/* 
+-------------PORTFOLIO SECTION-------------
+*/
+/* add spacing to portfolio container */
+#portfolio {
+  padding: 50px 0;
+}
