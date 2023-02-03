@@ -40,6 +40,12 @@ body {
   background: #7d0aa0;
   transform: scale(1.1);
 }
+/* set button 2 design (colored background) */
+.btn.btn2 {
+  display: inline-block;
+  background: #7d0aa0;
+  margin-bottom: 0;
+}
 
 /* 
 -------------NAVIGATION BAR-------------
@@ -333,10 +339,4 @@ nav ul li a:hover::after {
 .social-icons a:hover {
   color: #7d0aa0;
   transform: translateY(-5px);
-}
-
-.btn.btn2 {
-  display: inline-block;
-  background: #7d0aa0;
-  margin-bottom: 0;
 }
