@@ -259,3 +259,16 @@ nav ul li a:hover::after {
 .layer p {
   font-size: 14px;
 }
+/* adjust link icon and set into a circle */
+.layer a {
+  margin-top: 20px;
+  color: #7d0aa0;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
