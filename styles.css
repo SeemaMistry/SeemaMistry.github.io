@@ -233,6 +233,7 @@ nav ul li a:hover::after {
   border-radius: 10px;
   display: block;
 }
+/* set layer content ontop of work thumbnail with purple gradient backgtround */
 .layer {
   width: 100%;
   height: 100%;
