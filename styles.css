@@ -227,6 +227,7 @@ nav ul li a:hover::after {
 .work {
   position: relative;
   border-radius: 10px;
+  overflow: hidden;
 }
 /* set radius and size of thumbnail images  */
 .work img {
