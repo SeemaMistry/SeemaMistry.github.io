@@ -340,3 +340,19 @@ nav ul li a:hover::after {
   color: #7d0aa0;
   transform: translateY(-5px);
 }
+/* set the contact form */
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
