@@ -23,6 +23,23 @@ body {
   color: #fff;
   font-size: 40px;
 }
+/* set button design */
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #7d0aa0;
+  padding: 14px 50px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+.btn:hover {
+  background: #7d0aa0;
+  transform: scale(1.1);
+}
 
 /* 
 -------------NAVIGATION BAR-------------
