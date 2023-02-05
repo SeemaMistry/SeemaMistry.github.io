@@ -344,6 +344,7 @@ nav ul li a:hover::after {
 .contact-right form {
   width: 100%;
 }
+
 form input,
 form textarea {
   width: 100%;
@@ -356,6 +357,7 @@ form textarea {
   font-size: 18px;
   border-radius: 6px;
 }
+/* adjust submit button */
 form .btn.btn2 {
   padding: 14px 60px;
   font-size: 18px;
