@@ -364,3 +364,14 @@ form .btn.btn2 {
   margin-top: 20px;
   cursor: pointer;
 }
+/* 
+-------------FOOTER SECTION-------------
+*/
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
