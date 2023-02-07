@@ -469,4 +469,13 @@ form .btn.btn2 {
   .contact-right {
     flex-basis: 100%;
   }
+  .col-left,
+  .col-middle,
+  .col-right {
+    flex-basis: 100%;
+  }
+  .col-middle h3,
+  .col-right h3 {
+    margin-top: 50px;
+  }
 }
