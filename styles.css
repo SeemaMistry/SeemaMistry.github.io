@@ -94,6 +94,9 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
+nav .bi {
+  display: none; /* hide icons of close and menu */
+}
 
 /* 
 -------------HEADER-TEXT-------------
@@ -401,4 +404,44 @@ form .btn.btn2 {
 }
 .copyright i {
   color: #7d0aa0;
+}
+/* 
+-------------CSS FOR SMALL SCREEN-------------
+*/
+
+@media only screen and (max-width: 600px) {
+  #header {
+    background-image: url(images/phoneBackgroundAdjusted.jpg);
+  }
+  .header-text {
+    margin-top: 100%;
+    font-size: 16px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+  nav .bi {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background: #7d0aa0;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .bi {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
 }
