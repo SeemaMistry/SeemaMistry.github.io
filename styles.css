@@ -350,7 +350,10 @@ nav .bi {
 .resumes {
   margin-bottom: 50px;
 }
-
+form span {
+  color: #d2d2d2;
+  font-size: 24px;
+}
 form input,
 form textarea {
   width: 100%;
