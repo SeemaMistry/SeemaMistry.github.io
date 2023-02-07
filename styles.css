@@ -478,4 +478,7 @@ form .btn.btn2 {
   .col-right h3 {
     margin-top: 50px;
   }
+  .copyright {
+    font-size: 14px;
+  }
 }
