@@ -375,6 +375,9 @@ form .btn.btn2 {
 .footer-links h3 {
   margin-bottom: 20px;
 }
+.footer-links .col-middle span {
+  line-height: 1.8;
+}
 .col-left {
   flex-basis: 30%;
 }
