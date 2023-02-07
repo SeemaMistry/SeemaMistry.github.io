@@ -347,6 +347,9 @@ nav .bi {
 .contact-right form {
   width: 100%;
 }
+.resumes {
+  margin-bottom: 50px;
+}
 
 form input,
 form textarea {
