@@ -381,6 +381,9 @@ form .btn.btn2 {
 .col-right {
   flex-basis: 20%;
 }
+.col-middle ul li {
+  list-style: none;
+}
 .copyright {
   width: 100%;
   text-align: center;
