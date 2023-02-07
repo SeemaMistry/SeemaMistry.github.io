@@ -367,13 +367,18 @@ form .btn.btn2 {
 /* 
 -------------FOOTER SECTION-------------
 */
+.footer-links {
+  background: #262626;
+  width: 100%;
+  padding: 25px 0;
+}
 .copyright {
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: #262626;
+  background: #26262669;
   font-weight: 300;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .copyright i {
   color: #7d0aa0;
