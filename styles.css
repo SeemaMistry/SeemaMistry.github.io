@@ -372,6 +372,20 @@ form .btn.btn2 {
   width: 100%;
   padding: 25px 0;
 }
+.container-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.col-left {
+  flex-basis: 30%;
+}
+.col-middle {
+  flex-basis: 30%;
+}
+.col-right {
+  flex-basis: 30%;
+}
 .copyright {
   width: 100%;
   text-align: center;
