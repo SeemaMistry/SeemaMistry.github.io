@@ -9,6 +9,9 @@ body {
   background: #080808;
   color: #fff;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* Set the background image */
 #header {
   width: 100%;
