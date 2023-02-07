@@ -21,7 +21,7 @@ body {
 /* Set section sub-title to white and larger in size */
 .sub-title {
   color: #fff;
-  font-size: 40px;
+  font-size: 60px;
 }
 /* set button design */
 .btn {
@@ -444,5 +444,8 @@ form .btn.btn2 {
     top: 25px;
     left: 25px;
     cursor: pointer;
+  }
+  .sub-title {
+    font-size: 40px;
   }
 }
