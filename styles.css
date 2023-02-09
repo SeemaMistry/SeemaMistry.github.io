@@ -419,6 +419,31 @@ form .btn.btn2 {
 .copyright i {
   color: #7d0aa0;
 }
+
+/* 
+-------------WORK PAGES-------------
+*/
+/* .key-features {
+  background: #262626;
+  width: 100%;
+  padding: 25px 0;
+  display: flex;
+} */
+.col-left-features {
+  flex-basis: 50%;
+}
+.col-right-problem {
+  flex-basis: 50%;
+}
+.col-img {
+  flex-basis: 30%;
+}
+.col-description {
+  flex-basis: 65%;
+  background: #fff;
+  color: #080808;
+}
+
 /* 
 -------------CSS FOR SMALL SCREEN-------------
 */
