@@ -151,10 +151,11 @@ nav .bi {
 /* Increase tab-link font size and add right-margin for spacing */
 .tab-links {
   margin-right: 50px;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
+  color: #f1f1f1;
 }
 /* Set hover after effect on tab links */
 .tab-links::after {
