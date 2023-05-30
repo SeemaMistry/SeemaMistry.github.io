@@ -184,7 +184,8 @@ nav .bi {
 }
 /* set degree specifications to a smaller font */
 #education p {
-  font-size: 12px;
+  font-size: 14px;
+  padding-left: 20px;
 }
 /* hide all tab-contents by default */
 .tab-contents {
