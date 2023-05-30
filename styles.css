@@ -178,10 +178,11 @@ nav .bi {
   margin: 10px 0;
   padding-bottom: 10px;
   line-height: 25px;
+  font-size: 18px;
 }
 .tab-contents ul li span {
   color: #b770c9;
-  font-size: 25px;
+  font-size: 22px;
 }
 /* set degree specifications to a smaller font */
 #education p {
