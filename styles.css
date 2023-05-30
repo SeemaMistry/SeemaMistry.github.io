@@ -342,6 +342,14 @@ nav .bi {
   display: inline-block;
   transition: transform 0.5s;
 }
+.social-icons.large a {
+  text-decoration: none;
+  font-size: 60px;
+  margin-right: 50px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
 .social-icons a:hover {
   color: #7d0aa0;
   transform: translateY(-5px);
