@@ -209,10 +209,11 @@ nav .bi {
 .services-list div {
   background: #262626;
   padding: 40px;
-  font-size: 13px;
+  font-size: 25px;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
+  text-align: center;
 }
 /* adjust icon size */
 .services-list div i {
@@ -221,10 +222,16 @@ nav .bi {
 }
 /* adjust title font size and spacing */
 .services-list div h3 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   margin-bottom: 15px;
 }
+/* adjust title font size and spacing */
+.services-list div li {
+  list-style-type: none;
+  padding: 10px;
+}
+
 /* adjust link decorations */
 .services-list div a {
   text-decoration: none;
