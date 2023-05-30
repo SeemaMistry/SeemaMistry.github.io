@@ -175,6 +175,8 @@ nav .bi {
 .tab-contents ul li {
   list-style: none;
   margin: 10px 0;
+  padding-bottom: 10px;
+  line-height: 25px;
 }
 .tab-contents ul li span {
   color: #b770c9;
