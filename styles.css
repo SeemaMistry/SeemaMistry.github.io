@@ -181,11 +181,11 @@ nav .bi {
 }
 .tab-contents ul li span {
   color: #b770c9;
-  font-size: 16px;
+  font-size: 25px;
 }
 /* set degree specifications to a smaller font */
 #education p {
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 20px;
 }
 /* hide all tab-contents by default */
