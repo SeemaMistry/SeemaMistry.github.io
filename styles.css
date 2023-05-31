@@ -104,8 +104,11 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.logo {
-  width: 140px;
+.logo.small {
+  width: 200px;
+}
+.logo.large {
+  width: 300px;
 }
 /* Set list content without bullets and in a horizontal line with some padding between */
 nav ul li {
@@ -460,6 +463,12 @@ form .btn.btn2 {
   }
   .header-text h1 {
     font-size: 30px;
+  }
+  .logo.small {
+    width: 140px;
+  }
+  .logo.large {
+    width: 200px;
   }
   nav .bi {
     display: block;
