@@ -14,20 +14,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/* Set the background image */
-#header {
-  width: 100%;
-  height: 100vh;
-  background-image: url(images/backgroundAdjusted.jpg);
-  background-size: cover;
-  background-position: center;
-}
 
-/* Set section sub-title to white and larger in size */
-.sub-title {
-  color: #fff;
-  font-size: 60px;
+/* add padding to container */
+.container {
+  padding: 10px 10%;
 }
+/* 
+-------------BUTTONS AND SOCIAL ICONS-------------
+*/
+
 /* set button design */
 .btn {
   display: block;
@@ -52,14 +47,55 @@ html {
   margin-bottom: 0;
 }
 
+/* social icon buttons */
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 60px;
+  margin-right: 50px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover {
+  color: #7d0aa0;
+  transform: translateY(-5px);
+}
+
+/* 
+-------------HERO SECTION-------------
+*/
+
+/* Set the background image of Hero Section */
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/backgroundAdjusted.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* Set section sub-title to white and larger in size */
+.sub-title {
+  color: #fff;
+  font-size: 60px;
+}
+.header-text {
+  margin-top: 20%;
+  font-size: 30px;
+}
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+.header-text h1 span {
+  color: #d016ff;
+}
+
 /* 
 -------------NAVIGATION BAR-------------
 */
-
-/* add padding to container div holding the nav-bar */
-.container {
-  padding: 10px 10%;
-}
 
 /* Set the nav-bar orientation */
 nav {
@@ -104,22 +140,6 @@ nav .bi {
 }
 
 /* 
--------------HEADER-TEXT-------------
-*/
-
-.header-text {
-  margin-top: 20%;
-  font-size: 30px;
-}
-.header-text h1 {
-  font-size: 60px;
-  margin-top: 20px;
-}
-.header-text h1 span {
-  color: #d016ff;
-}
-
-/* 
 -------------ABOUT SECTION-------------
 */
 #about {
@@ -144,7 +164,6 @@ nav .bi {
   /* width: 100%; your original image is too small so it 100% displays a small image. Commented out so let it auto set to fill the page*/
   border-radius: 15px;
 }
-
 /* Set tab-titles orientation */
 .tab-titles {
   display: flex;
@@ -201,7 +220,7 @@ nav .bi {
 }
 
 /* 
--------------SERVICES SECTION-------------
+-------------SKILLS SECTION-------------
 */
 #services {
   padding: 50px 0;
@@ -212,7 +231,7 @@ nav .bi {
   grid-gap: 40px;
   margin-top: 50px;
 }
-/* set services inside grey card boxes */
+/* set skills inside grey card boxes */
 .services-list div {
   background: #262626;
   padding: 40px;
@@ -252,6 +271,7 @@ nav .bi {
   background: #7d0aa0;
   transform: translateY(-10px);
 }
+
 /* 
 -------------PORTFOLIO SECTION-------------
 */
@@ -326,6 +346,7 @@ nav .bi {
 .work:hover .layer {
   height: 100%;
 }
+
 /* 
 -------------CONTACT SECTION-------------
 */
@@ -349,21 +370,7 @@ nav .bi {
   margin-right: 15px;
   font-size: 25px;
 }
-.social-icons {
-  margin-top: 30px;
-}
-.social-icons a {
-  text-decoration: none;
-  font-size: 60px;
-  margin-right: 50px;
-  color: #ababab;
-  display: inline-block;
-  transition: transform 0.5s;
-}
-.social-icons a:hover {
-  color: #7d0aa0;
-  transform: translateY(-5px);
-}
+
 /* set the contact form */
 .contact-right form {
   width: 100%;
@@ -396,6 +403,7 @@ form .btn.btn2 {
   margin-bottom: 20px;
   float: right;
 }
+
 /* 
 -------------FOOTER SECTION-------------
 */
@@ -407,7 +415,7 @@ form .btn.btn2 {
 .footer-links h3 {
   margin-bottom: 20px;
 }
-
+/* set 3 columns */
 .col-left {
   flex-basis: 30%;
 }
@@ -425,7 +433,7 @@ form .btn.btn2 {
   color: white;
   text-decoration: none;
 }
-
+/* set copywrite footer section */
 .copyright {
   width: 100%;
   text-align: center;
@@ -447,7 +455,7 @@ form .btn.btn2 {
   padding: 25px 0;
   display: flex;
 } */
-.col-left-features {
+/* .col-left-features {
   flex-basis: 50%;
 }
 .col-right-problem {
@@ -460,7 +468,7 @@ form .btn.btn2 {
   flex-basis: 65%;
   background: #fff;
   color: #080808;
-}
+} */
 
 /* 
 -------------CSS FOR SMALL SCREEN-------------
