@@ -315,7 +315,7 @@ nav .bi {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #7d0aa0);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #5d0677);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -336,7 +336,8 @@ nav .bi {
   font-size: 28px;
 }
 .layer p {
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 1.15;
 }
 /* adjust link icon and set into a circle */
 .layer a {
