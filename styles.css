@@ -166,6 +166,10 @@ nav .bi {
 .about-col-1 img {
   /* width: 100%; your original image is too small so it 100% displays a small image. Commented out so let it auto set to fill the page*/
   border-radius: 15px;
+  height: 640px;
+  width: 360px;
+  margin-top: 90px;
+  margin-left: 50px;
 }
 /* set about description paragraphs text */
 .about-description {
@@ -500,6 +504,7 @@ form .btn.btn2 {
     left: 25px;
     cursor: pointer;
   }
+
   .sub-title {
     font-size: 40px;
   }
@@ -510,8 +515,16 @@ form .btn.btn2 {
   .about-col-1 {
     margin-bottom: 30px;
   }
-  .about-col-1 img {
+  /* .about-col-1 img {
     width: 100%;
+  } */
+  .about-col-1 img {
+    /* width: 100%; your original image is too small so it 100% displays a small image. Commented out so let it auto set to fill the page*/
+    border-radius: 15px;
+    height: 426px;
+    width: 240px;
+    margin-top: 0px;
+    margin-left: 10px;
   }
   .about-col-2 {
     font-size: 14px;
