@@ -550,23 +550,6 @@ form .btn.btn2 {
   .layer p {
     font-size: 16px;
   }
-  /* adjust link icon and set into a circle */
-  .layer a {
-    margin-top: 20px;
-    color: #7d0aa0;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .contact-left,
   .contact-right {
     flex-basis: 100%;
