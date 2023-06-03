@@ -321,7 +321,7 @@ nav .bi {
   left: 0;
   bottom: 0;
   overflow: hidden;
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -352,9 +352,13 @@ nav .bi {
   height: 60px;
   border-radius: 50%;
   text-align: center;
-  display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 20px;
+}
+/* adjust github and website links inside a flexbox row to display buttons horizontally inside .layer */
+.layer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* zoom into work thumbnail and display layer content until hovered over */
@@ -545,10 +549,10 @@ form .btn.btn2 {
   }
   /* adjust project card layered content text sizing */
   .layer h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .layer p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .contact-left,
   .contact-right {
