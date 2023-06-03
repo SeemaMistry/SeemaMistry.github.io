@@ -549,10 +549,10 @@ form .btn.btn2 {
   }
   /* adjust project card layered content text sizing */
   .layer h3 {
-    font-size: 18px;
+    font-size: 25px;
   }
   .layer p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .contact-left,
   .contact-right {
