@@ -424,13 +424,19 @@ form textarea {
   border-radius: 6px;
 }
 /* adjust submit button */
-form .btn.btn2 {
+form .btn2 {
   padding: 14px 60px;
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
   margin-bottom: 20px;
-  float: right;
+  float: left;
+}
+
+#msg {
+  color: #61b752;
+  margin-top: -20px;
+  display: block;
 }
 
 /* 
