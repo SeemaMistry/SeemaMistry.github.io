@@ -384,7 +384,7 @@ html {
 .slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit: cover;
+    object-fit:cover;
 }
 .slider-nav {
     display: flex;
@@ -499,6 +499,8 @@ form .btn2 {
   color: white;
   text-decoration: none;
 }
+
+
 /* set copywrite footer section */
 .copyright {
   width: 100%;
@@ -587,6 +589,16 @@ form .btn2 {
     font-size: 16px;
     margin-right: 20px;
   }
+  /* stack project accordian content */
+.accordian-col-left{
+  flex-basis: 100%;
+}
+img{
+  width: 100%;
+}
+.accordian-col-right{
+  flex-basis: 100%;
+}
   /* reduce project card layer content padding */
   .layer {
     padding: 0 10px;
