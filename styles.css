@@ -306,6 +306,61 @@ nav .bi {
   margin-top: 50px;
 }
 
+/* style project accordian and image slider */
+.accordian-col-left{
+  flex-basis: 55%;
+}
+
+.accordian-col-right{
+  flex-basis: 45%;
+}
+
+#accordian {
+  margin: 100px 10px;
+  padding: 0px;
+  width: 100%;
+}
+#accordian li {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #706f6f;
+  padding: 10px;
+  border-radius: 4px;
+}
+#accordian li label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #000000;
+}
+
+#accordian li label span{
+  transform: rotate(90deg);
+  font-size: 30px;
+  color: #333;
+}
+#accordian label + input[type="radio"]{
+  display: none;
+}
+
+#accordian .content{
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+#accordian label + input[type="radio"]:checked + .content{
+  max-height: 900px;
+}
+#accordian p {
+  color: #000000;
+}
 
 
 
