@@ -599,17 +599,6 @@ img{
 .accordian-col-right{
   flex-basis: 100%;
 }
-  /* reduce project card layer content padding */
-  .layer {
-    padding: 0 10px;
-  }
-  /* adjust project card layered content text sizing */
-  .layer h3 {
-    font-size: 25px;
-  }
-  .layer p {
-    font-size: 16px;
-  }
   .contact-left,
   .contact-right {
     flex-basis: 100%;
