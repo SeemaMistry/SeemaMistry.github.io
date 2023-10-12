@@ -155,7 +155,6 @@ nav .bi {
 -------------ABOUT SECTION-------------
 */
 #about {
-  padding: 50px 0;
   color: #d3d3d3;
 }
 /* Set content of about section in a single row horizontally with some spacing */
@@ -177,8 +176,6 @@ nav .bi {
   border-radius: 15px;
   height: 640px;
   width: 360px;
-  margin-top: 90px;
-  margin-left: 50px;
 }
 /* set about description paragraphs text */
 .about-description {
@@ -244,13 +241,13 @@ nav .bi {
 -------------SKILLS SECTION-------------
 */
 #services {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 .services-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 /* set skills inside grey card boxes */
 .services-list div {
@@ -298,14 +295,14 @@ nav .bi {
 */
 /* add spacing to portfolio container */
 #portfolio {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 /* set thumbnail images in a grid pattern */
 .portfolio-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 /* style project accordian and image slider */
@@ -320,7 +317,7 @@ nav .bi {
 
 
 #accordian {
-  margin: 100px 10px;
+  margin-top: 10px;
   padding: 0px;
   width: 100%;
 }
@@ -418,7 +415,7 @@ html {
 */
 /* add spacing to contact container */
 #contact {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 /* set column left and right sizes */
 .contact-left {
