@@ -310,11 +310,12 @@ nav .bi {
 
 /* style project accordian and image slider */
 .accordian-col-left{
-  flex-basis: 55%;
+  flex-basis: 100%;
 }
 
 .accordian-col-right{
-  flex-basis: 45%;
+  flex-basis: 100%;
+
 }
 
 
@@ -386,7 +387,7 @@ html {
 .slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit:cover;
+    object-fit:cover;  /* This is cutting off my images that are too big. Remove it if you want to stretch the images to fit */
 }
 .slider-nav {
     display: flex;
@@ -591,16 +592,10 @@ form .btn2 {
     font-size: 16px;
     margin-right: 20px;
   }
-  /* stack project accordian content */
-.accordian-col-left{
-  flex-basis: 100%;
-}
-img{
-  width: 100%;
-}
-.accordian-col-right{
-  flex-basis: 100%;
-}
+  /* adjust accordian image slider size */
+  img{
+    width: 100%;
+  }
   .contact-left,
   .contact-right {
     flex-basis: 100%;
