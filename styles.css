@@ -387,7 +387,9 @@ html {
 .slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
-    object-fit:cover;  /* This is cutting off my images that are too big. Remove it if you want to stretch the images to fit */
+    /* object-fit:cover;  This is cutting off my images that are too big. Remove it if you want to stretch the images to fit */
+    max-width: 100%;
+    max-height: 100%;
 }
 .slider-nav {
     display: flex;
