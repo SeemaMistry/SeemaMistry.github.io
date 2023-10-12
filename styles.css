@@ -317,6 +317,7 @@ nav .bi {
   flex-basis: 45%;
 }
 
+
 #accordian {
   margin: 100px 10px;
   padding: 0px;
@@ -362,7 +363,7 @@ nav .bi {
 }
 #accordian p {
   color: #f1f1f1;
-  padding: 32px;
+  padding: 10px;
 }
 html {
   scroll-padding-top: 14rem;
