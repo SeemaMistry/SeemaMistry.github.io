@@ -1,18 +1,23 @@
 # Portfolio Website
 
-Seema Mistry's personal portfolio website to display her skills as a self-taught software developer. Checkout her projects, skills, and more.
+Seema Mistry's personal portfolio website to display her skills as a software developer. Checkout her projects, skills, and more.
 
-**Checkout the live website: [Click Here](https://seemamistry.github.io/)**
+**Check out the live website: [Click Here](https://seemamistry.github.io/)**
 
-Designed and built with **HTML, CSS, and Javascript.** Implemented with a **responsive design, mobile capabilities,** and input form scripts.
+## Tech Stack, Tools, Techniques
+- HTML
+- CSS
+- Javascript
+- Responsive design
+- Mobile capabilities
+- Input form script
 
-## Content
+## Features
 
-This website contains the following sections
-
-- Header Section
-- About Section
-- Projects Section
-- Skills Section
-- Contact Section
-- Footer Section
+This website contains the following sections:
+- Header 
+- About 
+- Projects 
+- Skills 
+- Contact 
+- Footer 
